@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Petdometer Privacy Policy" />
+    <meta name="theme-color" content="#fff8fb" />
+    <title>Privacy Policy — Petdometer</title>
+    <style>
+      :root {
+        --bg: #fff8fb;
+        --card: #fff;
+        --text: #302a31;
+        --muted: #756c75;
+        --accent: #c96896;
+        --soft: #fbe8f1;
+        --border: #f0e1e8;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--text);
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Helvetica, Arial, sans-serif;
+        line-height: 1.75;
+        -webkit-font-smoothing: antialiased;
+      }
+      .hero {
+        padding: 56px 20px 42px;
+        text-align: center;
+        background: radial-gradient(
+            circle at 20% 20%,
+            #fdebf3 0,
+            transparent 30%
+          ),
+          radial-gradient(circle at 80% 10%, #f2eafb 0, transparent 28%),
+          var(--bg);
+      }
+      .logo {
+        width: 68px;
+        height: 68px;
+        margin: 0 auto 18px;
+        border-radius: 22px;
+        display: grid;
+        place-items: center;
+        background: linear-gradient(135deg, #f5b6d0, #cdb8ef);
+        box-shadow: 0 8px 22px #78538224;
+        font-size: 34px;
+      }
+      h1 {
+        margin: 0;
+        font-size: clamp(30px, 7vw, 44px);
+        line-height: 1.15;
+        letter-spacing: -0.03em;
+      }
+      .subtitle {
+        margin: 12px auto 0;
+        color: var(--muted);
+        font-size: 15px;
+      }
+      main {
+        width: min(calc(100% - 32px), 820px);
+        margin: 0 auto 60px;
+      }
+      article {
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 24px;
+        padding: clamp(24px, 5vw, 46px);
+        box-shadow: 0 10px 35px #52324412;
+      }
+      .intro {
+        margin-top: 0;
+        padding-bottom: 26px;
+        border-bottom: 1px solid var(--border);
+        color: #4e464e;
+      }
+      h2 {
+        margin: 34px 0 12px;
+        font-size: 22px;
+        line-height: 1.35;
+        letter-spacing: -0.015em;
+      }
+      h3 {
+        margin: 25px 0 8px;
+        font-size: 17px;
+        line-height: 1.4;
+      }
+      p {
+        margin: 10px 0 16px;
+      }
+      ul {
+        margin: 8px 0 20px;
+        padding-left: 23px;
+      }
+      li {
+        margin: 5px 0;
+      }
+      a {
+        color: var(--accent);
+        text-decoration: none;
+        font-weight: 600;
+        overflow-wrap: anywhere;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      .notice,
+      .contact {
+        margin: 22px 0;
+        padding: 16px 18px;
+        border-radius: 16px;
+        background: var(--soft);
+        border: 1px solid #f5d3e2;
+      }
+      .contact {
+        background: #faf7f9;
+        border-color: var(--border);
+      }
+      footer {
+        padding: 28px 20px 42px;
+        text-align: center;
+        color: var(--muted);
+        font-size: 13px;
+      }
+      @media (max-width: 600px) {
+        .hero {
+          padding: 42px 18px 32px;
+        }
+        main {
+          width: min(calc(100% - 20px), 820px);
+        }
+        article {
+          border-radius: 20px;
+          padding: 22px 20px 30px;
+        }
+        h2 {
+          margin-top: 30px;
+          font-size: 20px;
+        }
+        h3 {
+          font-size: 16px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="hero">
+      <div class="logo" aria-hidden="true">🐾</div>
+      <h1>Privacy Policy</h1>
+      <p class="subtitle">Petdometer · Last Updated: September 11, 2026</p>
+    </header>
+    <main>
+      <article>
+        <p class="intro">
+          Petdometer ("Petdometer", "we", "our", or "us") respects your privacy.
+          This Privacy Policy explains what information we collect, how we use
+          it, how it may be shared with third-party services, and the choices
+          available to you when you use the Petdometer mobile application (the
+          "App").
+        </p>
+        <p>
+          By using Petdometer, you acknowledge the practices described in this
+          Privacy Policy.
+        </p>
+
+        <h2>1. Information We Collect</h2>
+        <p>
+          Depending on the features you use and the permissions you grant,
+          Petdometer may collect the following types of information.
+        </p>
+        <h3>1.1 Account Information</h3>
+        <p>If you create or sign in to a Petdometer account, we may collect:</p>
+        <ul>
+          <li>Email address</li>
+          <li>User ID or account identifier</li>
+          <li>Authentication-related information</li>
+        </ul>
+        <p>
+          Account authentication and related data may be processed using
+          Supabase.
+        </p>
+        <h3>1.2 Health and Fitness Information</h3>
+        <p>
+          Petdometer uses step-count information to provide its core pet-growth
+          functionality.
+        </p>
+        <p>
+          Depending on your device, Petdometer may access step-count data
+          through:
+        </p>
+        <ul>
+          <li>Apple HealthKit on iOS</li>
+          <li>Android Health Connect on Android</li>
+        </ul>
+        <p>The information may include:</p>
+        <ul>
+          <li>Step count</li>
+          <li>Daily step count</li>
+          <li>
+            Related activity or fitness information made available through the
+            applicable health platform
+          </li>
+        </ul>
+        <p>
+          Petdometer only accesses this information after you grant the relevant
+          permission.
+        </p>
+        <p>
+          Health and fitness information is used to calculate pet growth and
+          provide walking-related features within the App.
+        </p>
+        <p>
+          We do not use health or fitness information for advertising or
+          advertising-related targeting.
+        </p>
+        <h3>1.3 App Usage Information</h3>
+        <p>
+          We may collect information about how you interact with Petdometer in
+          order to understand app usage and improve the App.
+        </p>
+        <p>This may include:</p>
+        <ul>
+          <li>App launches</li>
+          <li>Screens or features viewed</li>
+          <li>Buttons or features interacted with</li>
+          <li>Missions completed</li>
+          <li>Pet growth events</li>
+          <li>Items used</li>
+          <li>Other interactions with the App</li>
+        </ul>
+        <p>
+          We may use Google Analytics and Firebase services for analytics
+          purposes.
+        </p>
+        <h3>1.4 Advertising Information</h3>
+        <p>Petdometer may use Google AdMob to display advertisements.</p>
+        <p>
+          Depending on the device, configuration, and applicable permissions,
+          advertising services may process information such as:
+        </p>
+        <ul>
+          <li>Device identifiers</li>
+          <li>Advertising identifiers</li>
+          <li>Information about advertisements displayed</li>
+          <li>Advertising interactions</li>
+          <li>App usage information related to advertising</li>
+        </ul>
+        <p>
+          Advertising-related data may be processed by Google in accordance with
+          Google's applicable privacy policies and advertising settings.
+        </p>
+        <h3>1.5 Game and App Data</h3>
+        <p>
+          Petdometer may store information necessary to provide and synchronize
+          your game progress and app settings, including:
+        </p>
+        <ul>
+          <li>Pet type and growth stage</li>
+          <li>Pet growth history</li>
+          <li>Step-related game progress</li>
+          <li>Coins</li>
+          <li>Mission progress and completion</li>
+          <li>Inventory and items</li>
+          <li>Pet or space customization</li>
+          <li>App settings and preferences</li>
+        </ul>
+        <p>
+          If cloud synchronization is enabled, this information may be stored on
+          our servers through Supabase.
+        </p>
+
+        <h2>2. How We Use Information</h2>
+        <p>We may use collected information to:</p>
+        <ul>
+          <li>Create and authenticate user accounts</li>
+          <li>Synchronize your data across devices</li>
+          <li>Provide step-based pet growth features</li>
+          <li>Save and restore game progress</li>
+          <li>Provide missions and rewards</li>
+          <li>Improve app functionality</li>
+          <li>Understand how users interact with the App</li>
+          <li>Monitor and improve app performance</li>
+          <li>Provide advertisements</li>
+          <li>Measure advertising performance</li>
+          <li>Maintain security and prevent misuse</li>
+        </ul>
+        <div class="notice">
+          <strong>Health and fitness data:</strong> Health and fitness
+          information is used to provide the App's walking and pet-growth
+          functionality and is not used for advertising or advertising
+          targeting.
+        </div>
+
+        <h2>3. Third-Party Services</h2>
+        <p>
+          Petdometer may use third-party services to provide authentication,
+          cloud storage, analytics, advertising, and health-related
+          functionality.
+        </p>
+        <h3>Supabase</h3>
+        <p>
+          We may use Supabase for user authentication, database storage, and
+          cloud synchronization.
+        </p>
+        <p>
+          Information processed through Supabase may include account information
+          and Petdometer game data.
+        </p>
+        <p>
+          <a
+            href="https://supabase.com/privacy"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Supabase Privacy Policy</a
+          >
+        </p>
+        <h3>Google Firebase and Google Analytics</h3>
+        <p>
+          We may use Firebase and Google Analytics to understand how users
+          interact with Petdometer and to improve the App.
+        </p>
+        <p>
+          Google may process information such as app usage, device information,
+          and identifiers as described in Google's applicable policies.
+        </p>
+        <p>
+          <a
+            href="https://policies.google.com/privacy"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Google Privacy Policy</a
+          >
+        </p>
+        <h3>Google AdMob</h3>
+        <p>
+          We may use Google AdMob to display advertisements and measure
+          advertising performance.
+        </p>
+        <p>
+          AdMob may process device identifiers, advertising identifiers,
+          advertising information, and related usage information depending on
+          the applicable configuration and user settings.
+        </p>
+        <p>
+          <a
+            href="https://policies.google.com/privacy"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Google Privacy Policy</a
+          >
+        </p>
+        <p>
+          <a
+            href="https://policies.google.com/technologies/partner-sites"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Google Advertising Technologies</a
+          >
+        </p>
+        <h3>Apple HealthKit</h3>
+        <p>
+          On iOS, Petdometer may access step-count information through Apple
+          HealthKit when you grant permission.
+        </p>
+        <p>
+          HealthKit information is used to provide Petdometer's step-based
+          pet-growth functionality.
+        </p>
+        <h3>Android Health Connect</h3>
+        <p>
+          On Android, Petdometer may access step-count information through
+          Android Health Connect when you grant permission.
+        </p>
+        <p>
+          Health Connect information is used to provide Petdometer's step-based
+          pet-growth functionality.
+        </p>
+
+        <h2>4. Health and Fitness Data</h2>
+        <p>
+          Petdometer may process step-count and related fitness information
+          obtained through Apple HealthKit or Android Health Connect.
+        </p>
+        <p>This information is used solely to provide features such as:</p>
+        <ul>
+          <li>Reading your step count</li>
+          <li>Calculating pet growth</li>
+          <li>Tracking walking-related game progress</li>
+          <li>Providing the core walking and pet-growth experience</li>
+        </ul>
+        <p>Petdometer does not sell health or fitness information.</p>
+        <p>
+          Health and fitness information is not used for advertising or
+          advertising targeting.
+        </p>
+        <p>
+          You can change or revoke health-related permissions at any time
+          through your device settings.
+        </p>
+
+        <h2>5. Data Sharing</h2>
+        <p>We do not sell your personal information.</p>
+        <p>
+          We may share or allow third-party service providers to process
+          information when necessary to provide Petdometer's functionality,
+          including:
+        </p>
+        <ul>
+          <li>
+            Supabase for authentication, database storage, and synchronization
+          </li>
+          <li>Google Firebase and Google Analytics for analytics</li>
+          <li>Google AdMob for advertising and advertising measurement</li>
+          <li>Apple HealthKit for authorized health and fitness data access</li>
+          <li>
+            Android Health Connect for authorized health and fitness data access
+          </li>
+        </ul>
+        <p>
+          These third-party services may process information according to their
+          own privacy policies and terms.
+        </p>
+
+        <h2>6. Data Retention</h2>
+        <p>
+          Account information and cloud-synchronized data may be retained while
+          your account remains active or as necessary to provide the App's
+          services.
+        </p>
+        <p>
+          If you request deletion of your account or applicable personal
+          information, we will take reasonable steps to delete the information
+          that we are required or permitted to delete.
+        </p>
+        <p>
+          Some information may be retained when necessary to comply with legal
+          obligations, resolve disputes, enforce agreements, or protect the
+          security of the App.
+        </p>
+
+        <h2>7. Data Deletion</h2>
+        <p>
+          You may request deletion of your Petdometer account and associated
+          personal information.
+        </p>
+        <p>To request deletion, please contact us at:</p>
+        <div class="contact">
+          <strong>Email:</strong>
+          <a href="mailto:kim.sarah.song44@gmail.com"
+            >kim.sarah.song44@gmail.com</a
+          >
+        </div>
+        <p>
+          We will review your request and delete applicable information in
+          accordance with applicable laws and our legitimate data-retention
+          requirements.
+        </p>
+
+        <h2>8. Children's Privacy</h2>
+        <p>
+          Petdometer is intended for a general audience and is not specifically
+          directed toward children.
+        </p>
+        <p>
+          We do not knowingly collect personal information from children in
+          violation of applicable laws.
+        </p>
+        <p>
+          If you are a parent or guardian and believe that a child has provided
+          personal information to us inappropriately, please contact us at:
+        </p>
+        <div class="contact">
+          <strong>Email:</strong>
+          <a href="mailto:kim.sarah.song44@gmail.com"
+            >kim.sarah.song44@gmail.com</a
+          >
+        </div>
+
+        <h2>9. Your Privacy Choices</h2>
+        <p>
+          Depending on your location and applicable law, you may have rights
+          regarding your personal information, including the right to:
+        </p>
+        <ul>
+          <li>Request access to your personal information</li>
+          <li>Request correction of inaccurate information</li>
+          <li>Request deletion of your personal information</li>
+          <li>Withdraw consent where applicable</li>
+          <li>Request restrictions on certain processing</li>
+          <li>Object to certain processing activities</li>
+        </ul>
+        <p>
+          You may also control certain permissions through your device settings,
+          including access to HealthKit or Health Connect and, where applicable,
+          advertising or tracking permissions.
+        </p>
+        <p>To exercise applicable privacy rights, please contact us at:</p>
+        <div class="contact">
+          <strong>Email:</strong>
+          <a href="mailto:[YOUR SUPPORT EMAIL]">[YOUR SUPPORT EMAIL]</a>
+        </div>
+
+        <h2>10. Security</h2>
+        <p>
+          We use reasonable technical and organizational measures designed to
+          protect information processed through Petdometer.
+        </p>
+        <p>
+          However, no method of electronic storage or transmission over the
+          Internet is completely secure, and we cannot guarantee absolute
+          security.
+        </p>
+
+        <h2>11. Changes to This Privacy Policy</h2>
+        <p>
+          We may update this Privacy Policy from time to time to reflect changes
+          to Petdometer, our data practices, or applicable legal requirements.
+        </p>
+        <p>
+          When we make changes, we will update the "Last Updated" date at the
+          top of this Privacy Policy.
+        </p>
+
+        <h2>12. Contact Us</h2>
+        <div class="contact">
+          <p>
+            <strong>Email:</strong>
+            <a href="mailto:kim.sarah.song44@gmail.com"
+              >kim.sarah.song44@gmail.com</a
+            >
+          </p>
+          <p><strong>App:</strong> Petdometer</p>
+          <p><strong>Developer:</strong> Eunae Kim</p>
+          <p><strong>Last Updated:</strong> September 11, 2026</p>
+        </div>
+      </article>
+    </main>
+    <footer>© 2026 Petdometer. All rights reserved.</footer>
+  </body>
+</html>
